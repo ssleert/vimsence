@@ -1,8 +1,8 @@
 " Closes if vim does not have python3
-if !has('python3')
-    echo 'Vim has to be compiled with +python3.'
-    finish
-endif
+" if !has('python3')
+"     echo 'Vim has to be compiled with +python3.'
+"     finish
+" endif
 
 if exists('g:vimsence_loaded')
     finish
